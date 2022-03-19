@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.content_letters{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+.content_row_letters{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+.letter,.block_letter{
+    border: 1px dashed rgb(37, 37, 37);
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    padding: 2px;
+    line-height: 45px;
+    user-select: none;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 5px;
+}
+.letter p,.block_letter p{
+    color:rgb(228, 229, 155);
+    text-align: center;
+}
+
+.row_letters{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+.row_letters .block_letter{
+    background-color: rgb(49, 33, 29);
+}
+.row_letters_active .block_letter{
+    background-color: rgb(109, 77, 69);
+}
